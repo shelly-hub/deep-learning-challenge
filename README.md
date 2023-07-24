@@ -1,9 +1,13 @@
 # deep-learning-challenge
 
 ## Overview
-This challenge utilises machine learning method and neural networks to make a model that could give best results for predictions
+Alphabet Soup, a nonprofit organisation needs a tool which could be used to select successful applications to receive the fundings.
+
+Thus, this challenge utilises machine learning method and neural networks to make a model that could give best results to predict future organisations that would be the potential successful applicants.
+
+The extensive hyperparameters in neural networks is being trial and analysed in order to increase model performance.
+
 The dataset used to make model prediction is provided in CSV file that contains funding information from more than 34000 organisations. 
-Alphabet Soup, a nonprofit organisation needs a good model which could be used to select successful applications to receive the fundings.
 
 ## Results
 
@@ -36,4 +40,8 @@ Alphabet Soup, a nonprofit organisation needs a good model which could be used t
 
 3. What steps did you take in your attempts to increase model performance?
    - Adding optimum layers to 3
-   - 
+   - Maintain activation function to only: relu
+   - Create binnings for column "income_amt"
+
+## Summary
+The overall model performance is not very desirable at at arounf  
