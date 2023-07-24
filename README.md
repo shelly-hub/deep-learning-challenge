@@ -39,10 +39,13 @@ The dataset used to make model prediction is provided in CSV file that contains 
    -Unfortunately,No. Model accuracy is below 75%
 
 3. What steps did you take in your attempts to increase model performance?
+   Big networks not recommended, since it is only """ observations 
    - Adding optimum layers to 3
    - Maintain activation function to only: relu
    - Create binnings for column "income_amt"
 
 ## Summary
 The overall model performance is not very desirable at at around 72% accuracy.
+It is recommended to use Random Forests classification algorithm for this dataset. 
+Random forests could identify which column that has the highest weightage to make strongest decision, thus could help to improve the model performance. 
 
