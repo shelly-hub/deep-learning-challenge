@@ -44,4 +44,5 @@ The dataset used to make model prediction is provided in CSV file that contains 
    - Create binnings for column "income_amt"
 
 ## Summary
-The overall model performance is not very desirable at at arounf  
+The overall model performance is not very desirable at at around 72% accuracy.
+
