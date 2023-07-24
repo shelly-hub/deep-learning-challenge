@@ -36,9 +36,11 @@ The dataset used to make model prediction is provided in CSV file that contains 
    - Activation functions:
 
 2. Were you able to achieve the target model performance?
+   
    -Unfortunately,No. Model accuracy is below 75%
 
-3. What steps did you take in your attempts to increase model performance?
+4. What steps did you take in your attempts to increase model performance?
+   
    Big networks not recommended, since it is only """ observations 
    - Adding optimum layers to 3
    - Maintain activation function to only: relu
