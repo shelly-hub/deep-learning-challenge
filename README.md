@@ -44,7 +44,7 @@ The dataset used to make model prediction is provided in CSV file that contains 
 Using original data preprocessing method, changing hyperparameters do not help to increase model performance.
 Therefore, data is added in the analysis in order to help to improve model accuracy
 
-   - Data is added by adding the deleted column "EIN" has improved model from 0.72 to 0.73 accuracy
+   - Data is added by adding the deleted column "EIN", this has improved model from 0.72 to 0.73 accuracy
    - Adding optimum layers to 3
    - Maintain activation function to only: relu. Activation without relu will decrease the accuracy
    
