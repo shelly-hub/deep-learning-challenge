@@ -1,11 +1,11 @@
 # deep-learning-challenge
 
 ## Overview
-Alphabet Soup, a nonprofit organisation needs a tool which could be used to select successful applications to receive the fundings.
+Alphabet Soup, a nonprofit organisation needs a tool which could be used to select applicants that could have high rate of success after receiving fundings.
 
-Thus, this challenge utilises machine learning method and neural networks to make a model that could give best results to predict future organisations that would be the potential successful applicants.
+Thus, this challenge utilises machine learning method and neural networks to make a model that could be used for the company to predict potential successful applicants in the future. 
 
-The extensive hyperparameters in neural networks is being trial and analysed in order to increase model performance.
+The extensive hyperparameters in neural networks is being trialed and analysed in order to increase model performance.
 
 The dataset used to make model prediction is provided in CSV file that contains funding information from more than 34000 organisations. 
 
@@ -31,23 +31,22 @@ The dataset used to make model prediction is provided in CSV file that contains 
 
 ### Compiling, Training, and Evaluating the Model
 1. How many neurons, layers, and activation functions are selected for the neural network model
-   - Neurons:
-   - Layers:
-   - Activation functions:
+   - Neurons: 80 and 30
+   - Layers: 2
+   - Activation functions: relu and sigmoid
 
 2. Were you able to achieve the target model performance?
    
    -Unfortunately,No. Model accuracy is below 75%
 
 4. What steps did you take in your attempts to increase model performance?
-   
-   Big networks not recommended, since it is only """ observations 
    - Adding optimum layers to 3
-   - Maintain activation function to only: relu
-   - Create binnings for column "income_amt"
+   - Maintain activation function to only: relu. Activation without relu will decrease the accuracy
+   - Adding back the deleted column "EIN" as adding data could have improved efficiency
 
 ## Summary
-The overall model performance is not very desirable at at around 72% accuracy.
-It is recommended to use Random Forests classification algorithm for this dataset. 
+The overall model performance is around 0.726 accuracy.
+As this model is used to make recommendation for company, hence accuracy around 70-75% is desirable. 
+To further increase accuracy, it is recommended to use Random Forests classification algorithm for this dataset. 
 Random forests could identify which column that has the highest weightage to make strongest decision, thus could help to improve the model performance. 
 
