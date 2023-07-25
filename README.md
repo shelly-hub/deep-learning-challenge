@@ -37,15 +37,19 @@ The dataset used to make model prediction is provided in CSV file that contains 
 
 2. Were you able to achieve the target model performance?
    
-   -Unfortunately,No. Model accuracy is below 75%
+   - No. Model accuracy is below 75%
 
 4. What steps did you take in your attempts to increase model performance?
+   
+Using original data preprocessing method, changing hyperparameters do not help to increase model performance.
+Therefore, data is added in the analysis in order to help to improve model accuracy
+   - Adding the deleted column "EIN" has improved model from 0.72 to 0.73 accuracy
    - Adding optimum layers to 3
    - Maintain activation function to only: relu. Activation without relu will decrease the accuracy
-   - Adding back the deleted column "EIN" as adding data could have improved efficiency
+   
 
 ## Summary
-The overall model performance is around 0.726 accuracy.
+The overall model performance is around 0.73 accuracy.
 As this model is used to make recommendation for company, hence accuracy around 70-75% is desirable. 
 To further increase accuracy, it is recommended to use Random Forests classification algorithm for this dataset. 
 Random forests could identify which column that has the highest weightage to make strongest decision, thus could help to improve the model performance. 
