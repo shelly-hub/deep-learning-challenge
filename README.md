@@ -55,3 +55,10 @@ As this model is used to make recommendation for company, hence accuracy around 
 To further increase accuracy, it is recommended to use Random Forests classification algorithm for this dataset. 
 Random forests could identify which column that has the highest weightage to make strongest decision, thus could help to improve the model performance. 
 
+## References
+Python | Pandas dataframe.replace()(N.D.). GeeksforGeeks. Retrieved on: 24/07/2023, from:<https://www.geeksforgeeks.org/python-pandas-dataframe-replace/>
+
+https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/keras/save_and_load.ipynb
+
+Piyush Chanchal: "Is 80% accuracy good in machine learning"(N.D.). Quora. Retrieved on: 25/07/2023, from<https://www.quora.com/What-accuracy-should-I-consider-in-machine-learning-Do-I-need-to-train-my-model-and-the-last-accuracy-of-the-training-epoch-x-is-the-accuracy-that-I-show-as-my-result>
+
