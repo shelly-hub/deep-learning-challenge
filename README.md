@@ -9,6 +9,8 @@ The extensive hyperparameters in neural networks is being trialed and analysed i
 
 The dataset used to make model prediction is provided in CSV file that contains funding information from more than 34000 organisations. 
 
+This neural network model is run in Google Colab, hence installation is needed in personal Google Drive. 
+
 ## Results
 
 ### Data Preprocessing
