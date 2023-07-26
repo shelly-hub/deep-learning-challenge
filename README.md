@@ -42,7 +42,7 @@ The dataset used to make model prediction is provided in CSV file that contains 
 4. What steps did you take in your attempts to increase model performance?
    
 Using original data preprocessing method, changing hyperparameters do not help to increase model performance.
-Therefore, data is added in the analysis in order to help to improve model accuracy
+Therefore, aaditional data is added in the analysis in order to help to improve model accuracy
 
    - Data is added by adding the deleted column "EIN", this has improved model from 0.72 to 0.73 accuracy
    - Adding optimum layers to 3, and increasing neurons from 80 to 200 does improve a little. 
@@ -51,8 +51,9 @@ Therefore, data is added in the analysis in order to help to improve model accur
 
 ## Summary
 The overall model performance is around 0.73 accuracy.
-As this model is used to make recommendation for company, hence accuracy around 70-75% is desirable. 
-To further increase accuracy, it is recommended to use Random Forests classification algorithm for this dataset. 
+As this model is used to make recommendation for company, hence accuracy around 70-75% is acceptable. 
+Since adding randomness, stratify data in sampling, optimise the data splitting ratio, and tuning hyperparameters do not help to increase accuracy, 
+it is recommended to use Random Forests classification algorithm for this dataset. 
 Random forests could identify which column that has the highest weightage to make strongest decision, thus could help to improve the model performance. 
 
 ## References
