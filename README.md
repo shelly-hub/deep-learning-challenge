@@ -59,7 +59,8 @@ Random forests could identify which column that has the highest weightage to mak
 ## References
 Python | Pandas dataframe.replace()(N.D.). GeeksforGeeks. Retrieved on: 24/07/2023, from:<https://www.geeksforgeeks.org/python-pandas-dataframe-replace/>
 
-https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/keras/save_and_load.ipynb
+Save and Load Models.(2019). Copyright 2019 The TensorFlow Authors. Retrieved on: 24/07/2023, from:<https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/keras/save_and_load.ipynb>
 
 Piyush Chanchal: "Is 80% accuracy good in machine learning"(N.D.). Quora. Retrieved on: 25/07/2023, from<https://www.quora.com/What-accuracy-should-I-consider-in-machine-learning-Do-I-need-to-train-my-model-and-the-last-accuracy-of-the-training-epoch-x-is-the-accuracy-that-I-show-as-my-result>
 
+Khurram Hameed: "Why is my training loss fluctuating?"(3/5/2021).ResearchGate.Retrieved on: 25/07/2023, from<https://www.researchgate.net/post/Why_is_my_training_loss_fluctuating>
