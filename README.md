@@ -45,7 +45,8 @@ Using original data preprocessing method, changing hyperparameters do not help t
 Therefore, aaditional data is added in the analysis in order to help to improve model accuracy
 
    - Data is added by adding the deleted column "EIN", this has improved model from 0.72 to 0.73 accuracy
-   - Adding optimum layers to 3, and increasing neurons from 80 to 200 does improve a little. 
+   - Adding more columns to train by creating binning for "ASK_AMT" columns since it has substantial unique values.
+   - Increasing neurons from 80 to 200 does improve a little. 
    - Maintain activation function to only: relu. Activation without relu will decrease the accuracy
    
 
